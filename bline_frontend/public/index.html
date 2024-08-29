@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Bline</title>
+        <!-- <base href="http://localhost:3000/bline/"/> -->
+        <base href="https://espsofttech.org/bline/"/>
+        <!-- <base href="https://Bline.io/Bline_dev/"/> -->
+                
+        <link rel="icon
+        " href="images/icon.png" type="image/gif" sizes="16x16">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="NFT Marketplace" name="description" />
+        <meta content="" name="keywords" />
+        <meta content="" name="author" />
+        <!-- CSS Files
+        ================================================== -->
+        <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/style2.css" rel="stylesheet" type="text/css" />
+        <!-- color scheme -->
+        <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+        <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/material-icon.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/videoreact.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      />
+      <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+    </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/validation.js"></script>  
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.lazy.min.js"></script>
+    <script src="js/jquery.lazy.plugins.min.js"></script>
+    <script src="js/designesia.js"></script>
+    
+ 
+   </body>
+   <script src="js/particles.js"></script>
+   <script src="js/particles-settings-2.js"></script>
+   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+   <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+</script>
+<script>
+  window.onload = function () {
+  
+  var chart = new CanvasJS.Chart("chartContainer", {
+      animationEnabled: true,
+      theme: "light2",
+      title:{
+          text: "Price Trend"
+      },
+      data: [{        
+          type: "line",
+          indexLabelFontSize: 16,
+          dataPoints: [
+              { y: 450 },
+              { y: 414},
+              { y: 520, indexLabel: "\u2191 highest",markerColor: "red", markerType: "triangle" },
+              { y: 460 },
+              { y: 450 },
+              { y: 500 },
+              { y: 480 },
+              { y: 480 },
+              { y: 410 , indexLabel: "\u2193 lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
+              { y: 500 },
+              { y: 480 },
+              { y: 510 }
+          ]
+      }]
+  });
+  chart.render();
+  
+  }
+  </script>
+
+<script>
+location.hash = window.location.href
+history.replaceState(window.location.href, window.location.href, location.pathname)
+
+  </script>
+ 
+  
+
+</html>

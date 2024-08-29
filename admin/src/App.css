@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.product-img{
+  height: 80px;
+  width: 80px;
+ 
+  /* object-fit: contain; */
+}
+@media (min-width: 1200px){
+/* .box-counter {
+    width: 20%;
+} */
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #000;
+}
+
+.sp-header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  padding: 9px 0px 1px 0px;
+  background: #000;
+}
+
+.dropdown-menu.user-auth-dropdown li {
+    border-bottom: 1px solid #fff;
+    padding: 2px 0px;
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #fff;
+    background: rgba(33, 33, 33, 0.05);
+}
+
+/* .dropdown-menu {
+  background-color: #24333e!important;
+} */
+
+  .dropdown-menu {
+    background-color: #2f9be8!important;
+} 
+
+  .auth-drp {
+    z-index: 11;
+}
+
+.nft-user select {
+  z-index: 0 !important;
+}
+
+.nft-user .input-group-prepend {
+  background: transparent!important;
+}
+.errorAstrick{
+  color: red;
+}
+
+.video-css{
+  height: 80px;
+  width: 80px;
+}
+.user-info-css{
+  margin-top: 21px;
+  padding: 6px;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+}
+
+/* .fa-facebook-square:before {
+  color: blue;
+  content: "\f082";
+  font-size: 22px;
+}
+.fa-instagram:before {
+  content: "\f16d";
+  color: #da2f78;
+  font-size: 22px;
+
+}
+.fa-telegram:before {
+  font-size: 22px;
+  color: #0088cc;
+
+}.fa-twitter:before {
+
+  font-size: 22px;
+  color: #00acee;
+
+} */
+.discord-img img {
+  width: 22px;
+  margin-bottom: -4px;
+}
+/* .socialicon-user .fa{
+  padding-right: 3px;
+} */
+a{
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.react-dropdown-select-dropdown.react-dropdown-select-dropdown-position-bottom.css-93ilmd-DropDown.e1qjn9k90 {
+  width: 100%;
+}
+.css-148o527-ItemComponent.react-dropdown-select-item-selected {
+  background: #081f3f!important;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.alert_validation{
+  color: red;
+}
+
+#yourBtn {
+  position: relative;
+  top: -42px;
+  font-family: calibri;
+  height: 41px;
+  width: 269px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+#faux, #browse {
+  /* style these guys however you like, the key is 
+     position:absolute. No need for z-index modification
+     since the wrapper is natually above these elements.
+  */
+  position:absolute;
+}
+
+#faux {
+  height : 26px;
+  width : 200px;
+  padding:0;
+  margin:0;
+  top : 10;
+}
+
+#browse {
+  display: inline-block;
+  left: 11px;
+  top: 32px;
+  width: 272px;
+  height: 41px;
+  background: #CCC;
+  color: #FFF;
+  text-decoration: none;
+  line-height: 37px;
+  text-align: center;
+}
+
+#wrapper {
+  /* opacity : 0.5;  toggle this if you want to see where the real input lines up*/
+  opacity : 0;
+  /* each input will render differently on each browser, use this wrapper to make sure the target size is the same on each */
+  overflow: hidden;
+  width: 300px;
+  height : 50px;
+  padding:0;
+  margin:0;
+}
+.bp3-overlay,.bp3-overlay-content{
+  z-index: 9999999999 !important;
+}
+i.fa.fa-bars.scrollable {
+  color: #fff;
+  margin-top: 17px;
+  font-size: 28px;
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Bline_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://espsofttech.org/bline/",
+  "dependencies": {
+    "@ashvin27/react-datatable": "^1.5.3",
+    "@blueprintjs/core": "^3.53.0",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.4.4",
+    "@mui/material": "^5.4.4",
+    "@mui/styled-engine-sc": "^5.4.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "date-and-time": "^2.0.1",
+    "jquery": "^3.6.0",
+    "js-cookie": "^3.0.0",
+    "moment": "^2.29.1",
+    "npm": "^8.0.0",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^4.0.0",
+    "react-audio-player": "^0.17.0",
+    "react-bar-loader": "^1.0.0",
+    "react-collapsible": "^2.8.4",
+    "react-confirm-alert": "^2.7.0",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-countdown": "^2.3.2",
+    "react-datepicker": "^4.7.0",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-image-size": "^1.0.4",
+    "react-modal": "^3.14.3",
+    "react-multi-carousel": "^2.6.5",
+    "react-public-ip": "^1.0.0",
+    "react-responsive-carousel": "^3.2.21",
+    "react-router": "^3.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "react-share": "^4.4.0",
+    "react-toastify": "^7.0.4",
+    "react-tooltip": "^4.2.21",
+    "styled-components": "^5.3.3",
+    "video-react": "^0.14.1",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

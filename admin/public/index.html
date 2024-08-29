@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+     <!-- <base href="http://localhost:3000/bline-admin/"> -->
+      <base href="https://espsofttech.org/bline-admin/">
+                                                       
+      <!-- <base href="https://nxft.io/nxft_dev/fff8jsue9p/"> -->
+  <meta charset="utf-8" />
+  <link rel="icon
+  " href="images/icon.png" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <!-- jquery-steps css -->
+  
+	<!-- vector map CSS -->
+	<link href="./vendors/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="./vendors/bower_components/jquery.steps/demo/css/jquery.steps.css">
+    <!--alerts CSS -->
+  <link href="./vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css">
+  	<!-- Custom Fonts -->
+    <link href="./dist/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Calendar CSS -->
+	<link href="./vendors/bower_components/fullcalendar/dist/fullcalendar.css" rel="stylesheet" type="text/css"/>
+  <link href="./vendors/bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet"
+    type="text/css" />
+
+  <!-- Custom CSS -->
+  <link href="./vendors/bower_components/morris.js/morris.css" rel="stylesheet" type="text/css" />
+
+  <!-- Data table CSS -->
+  <link href="./vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet"
+    type="text/css" />
+<!-- bootstrap-touchspin CSS -->
+<link href="./vendors/bower_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css" rel="stylesheet" type="text/css"/>
+  <link href="./vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css">
+  <link href="./vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/><link href="vendors/bower_components/morris.js/morris.css" rel="stylesheet"/><link href="vendors/bower_components/switchery/dist/switchery.min.css" rel="stylesheet"/>
+  <link href="./vendors/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet"/>
+  <link href="./vendors/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
+  <link href="./vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
+
+  <!-- bootstrap-select CSS -->
+  <link href="./vendors/bower_components/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet"
+    type="text/css" />
+
+  <!-- Bootstrap Switches CSS -->
+  <link href="./vendors/bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet"
+    type="text/css" />
+  <!-- switchery CSS -->
+  <link href="./vendors/bower_components/switchery/dist/switchery.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Custom CSS -->
+  <link href="dist/css/style.css" rel="stylesheet" type="text/css">
+  
+  <link href="css/icofont.css" rel="stylesheet" type="text/css">
+  <link href="css/material-icon.css" rel="stylesheet" type="text/css">
+  <title>BLINE-admin</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  -->
+  <script src="./vendors/bower_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vendors/bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+<!-- Form Wizard JavaScript -->
+<script src="vendors/bower_components/jquery.steps/build/jquery.steps.min.js"></script>
+  <!-- Data table JavaScript -->
+  <script src="vendors/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<!-- Bootstrap Touchspin JavaScript -->
+
+<script src="dist/js/productorders-data.js"></script>
+<script src="vendors/bower_components/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+<!-- Starrr JavaScript -->
+<script src="dist/js/starrr.js"></script>  
+	<!-- Product Detail Data JavaScript -->
+	<script src="dist/js/product-detail-data.js"></script>
+<script src="dist/js/jquery.slimscroll.js"></script>
+
+  <!-- simpleWeather JavaScript -->
+  <script src="vendors/bower_components/moment/min/moment.min.js"></script>
+  <script src="vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>
+  <script src="dist/js/simpleweather-data.js"></script>
+
+  <!-- Progressbar Animation JavaScript -->
+  <script src="vendors/bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="vendors/bower_components/jquery.counterup/jquery.counterup.min.js"></script>
+
+  <!-- Fancy Dropdown JS -->
+  <script src="dist/js/dropdown-bootstrap-extended.js"></script>
+
+  <!-- Sparkline JavaScript -->
+  <script src="vendors/jquery.sparkline/dist/jquery.sparkline.min.js"></script>
+
+  <!-- Owl JavaScript -->
+  <script src="vendors/bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<!-- Sweet-Alert  -->
+<!-- Product Checkout Data JavaScript -->
+<script src="dist/js/product-checkout-data.js"></script>
+<!-- Product Checkout Data JavaScript -->
+<script src="dist/js/product-cart-data.js"></script>
+<script src="vendors/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+<script src="dist/js/sweetalert-data.js"></script>
+  <!-- ChartJS JavaScript -->
+  <script src="vendors/chart.js/Chart.min.js"></script>
+
+  <!-- EasyPieChart JavaScript -->
+  <script src="vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+  <!-- Morris Charts JavaScript -->
+  <script src="vendors/bower_components/raphael/raphael.min.js"></script>
+  <script src="vendors/bower_components/morris.js/morris.min.js"></script>
+  <script src="vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+
+  <!-- Switchery JavaScript -->
+  <script src="vendors/bower_components/switchery/dist/switchery.min.js"></script>
+  <!-- Bootstrap Select JavaScript -->
+  <script src="vendors/bower_components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+  <!-- Init JavaScript -->
+  <script src="dist/js/init.js"></script>
+  <script src="dist/js/dashboard-data.js"></script>
+  <script src="dist/js/ecommerce-data.js"></script>
+  
+  <script>
+    $('#toggle_nav_btn').click(function() {
+      alert('toggle');
+    $('.slide-nav-toggle').addClass('active');
+    $('#content').toggle();
+}), function() { 
+    $(this).removeClass('active');
+};
+  </script>
+
+  <script>
+    $('body').delegate('#mobileMenuBtn','click',function(){
+      $('.fixed-sidebar-left').toggleClass('mobileLeftShow');
+    });
+  </script>
+
+
+<script>!function(e){function t(t){for(var n,i,a=t[0],c=t[1],f=t[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(l&&l(t);p.length;)p.shift()();return u.push.apply(u,f||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,a=1;a<r.length;a++){var c=r[a];0!==o[c]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r=o[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=o[e]=[t,n]}));t.push(r[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"d87c1117"}[e]+".chunk.js"}(e);var c=new Error;u=function(t){a.onerror=a.onload=null,clearTimeout(f);var r=o[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,r[1](c)}o[e]=void 0}};var f=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(t)},i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/nxft/",i.oe=function(e){throw console.error(e),e};var a=this.webpackJsonpnxft_frontend=this.webpackJsonpnxft_frontend||[],c=a.push.bind(a);a.push=t,a=a.slice();for(var f=0;f<a.length;f++)t(a[f]);var l=c;r()}([])</script>
+
+
+
+
+
+<script>var i,acc=document.getElementsByClassName("accordion");for(i=0;i<acc.length;i++)acc[i].addEventListener("click",(function(){this.classList.toggle("active");var e=this.nextElementSibling;"block"===e.style.display?e.style.display="none":e.style.display="block"}))</script>
+</body>
+
+</html>
